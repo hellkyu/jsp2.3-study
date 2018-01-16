@@ -1,0 +1,26 @@
+---mysql---
+
+<Resource name="jdbc/jsptest"
+           auth="Container"
+           type="javax.sql.DataSource"
+           driverClassName="com.mysql.jdbc.Driver" 
+           username="jspid"
+           password="jsppass"
+           url="jdbc:mysql://localhost:3306/jsptest"
+           maxWait="5000"       
+ />
+
+
+
+--Oracle ---
+<Resource name="jdbc/jsptesto"
+          auth="Container"
+          type="javax.sql.DataSource"
+          driverClassName="oracle.jdbc.driver.OracleDriver"
+          maxWait="5000"
+          username="scott"
+          password="tiger"
+          url="jdbc:oracle:thin:@localhost:1521:orcl"
+ />
+
+
