@@ -8,7 +8,7 @@
 <div id="status">
 	<ul>
 		<li><label for="passwd">비밀번호</label>
-		<input id="passwd" name="passwd" "type="password"
+		<input id="passwd" name="passwd" type="password"
 		 size="20" placeholder="6~16자 숫자/문자" maxlength="16">
 		<li class="label2">
 			<button id="modify">정보수정</button>
