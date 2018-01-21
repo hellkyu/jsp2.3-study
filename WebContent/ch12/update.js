@@ -41,8 +41,6 @@ $(document).ready(function(){
 		var query = "list.jsp?pageNum="+pageNum;
 		$("#main_board").load(query);
 	});
-
-	
 });
 
 //글수정 폼의 입력값 유무 확인
